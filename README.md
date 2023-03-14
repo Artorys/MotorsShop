@@ -1,10 +1,13 @@
 # Sobre o Projeto
 
-Projeto Fullstack consiste em uma aplicação que possui tanto o backend quanto o frontend.
-Esse projeto visa ser um CRUD de entidades usuário (anunciante ou comprador), anúncios e galeria de anúncios(imagens) e possui algumas funcionalidades:
+Projeto Fullstack:
+  consiste em uma aplicação que possui tanto o backend quanto o frontend.
+Esse projeto visa ser um CRUD de entidades usuário (anunciante ou comprador) e possui algumas funcionalidades:
 
-- Anunciante/Comprador - Entidade que será responsável pela autenticação na aplição e cadastro de anúncios.
+- Anunciante - Entidade que será responsável pelo cadastro de anúncios/edição/deleção.
+- Comprador - Entidade que será responsável compra dos anúncios e se comunicará via whatsapp caso haja interesse.
 - Anúncios - Entidade que será criada apartir do anunciante.
+- Comentários - Entidade que será criada/editada/deletada pelo autor do comentário.
 
 ### Feito Com
 
@@ -112,3 +115,4 @@ Para conseguir utilizar o projeto localmente,siga os passos abaixo.
 2.  Com uma conta você terá as seguintes possibilidades:
     - Com a conta anunciante a criação de anúncios,deleção e update;
     - Edição e deleção da própria conta(comprador ou anunciante).
+    - Criação/edição/deleção do próprio comentário na página de um anúncio.
